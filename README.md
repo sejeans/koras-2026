@@ -15,3 +15,4 @@
 3. `confirmatory_metrics.py` : 확증 분할 지표
 4. `bench_preprocess_pc.py` : PC 전처리 시간, D:\TS 원본 PNG 필요
 5. `print_summary.py` : 1번 결과 요약 출력
+6. `confirmatory_test_paired.py` : 확증 시험 데이터 짝비교. AI모델/EV_Model_work/confirmatory_20261016/test/predictions.csv 필요(GPU 평가 약 2.5시간)
