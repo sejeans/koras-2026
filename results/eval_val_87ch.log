@@ -1,0 +1,21 @@
+[14:54:33] IONIQ: validation samples 4,933, sessions 43
+[14:54:53] Load 300/484 segments
+[14:55:06] Loaded 4,933 chunks; max RPM difference 0.000000
+[14:55:38] IONIQ: 256/4,933 (0.5 min)
+[14:56:31] IONIQ: 2,304/4,933 (1.4 min)
+[14:57:36] IONIQ: 4,352/4,933 (2.5 min)
+[14:57:53] IONIQ: done, cache removed
+[14:57:53] KONA: validation samples 4,938, sessions 20
+[14:58:23] Load 300/323 segments
+[14:58:27] Loaded 4,938 chunks; max RPM difference 0.000000
+[14:58:33] KONA: 256/4,938 (0.1 min)
+[14:59:26] KONA: 2,304/4,938 (1.0 min)
+[15:00:22] KONA: 4,352/4,938 (1.9 min)
+[15:00:37] KONA: done, cache removed
+[15:00:37] NIRO: validation samples 4,921, sessions 28
+[15:01:10] Loaded 4,921 chunks; max RPM difference 0.000000
+[15:01:17] NIRO: 256/4,921 (0.1 min)
+[15:02:10] NIRO: 2,304/4,921 (1.0 min)
+[15:03:02] NIRO: 4,352/4,921 (1.9 min)
+[15:03:16] NIRO: done, cache removed
+done

@@ -1,0 +1,523 @@
+{
+  "87ch_test": {
+    "samples": 14879,
+    "sessions": 98,
+    "reliability": {
+      "ECC10": {
+        "correct_mode": {
+          "pct": 99.7285374957584,
+          "ci95": [
+            99.37838171083743,
+            99.9328430849255
+          ],
+          "n_num": 2939,
+          "n_den": 2947
+        },
+        "detected_any_fault": {
+          "pct": 100.0,
+          "ci95": [
+            100.0,
+            100.0
+          ],
+          "n_num": 2947,
+          "n_den": 2947
+        },
+        "missed_as_normal": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2947
+        },
+        "wrong_fault_mode": {
+          "pct": 0.2714625042416016,
+          "ci95": [
+            0.06715691507450794,
+            0.6216182891625684
+          ],
+          "n_num": 8,
+          "n_den": 2947
+        }
+      },
+      "ECC20": {
+        "correct_mode": {
+          "pct": 99.32930918846412,
+          "ci95": [
+            98.56870136725384,
+            99.82979807101832
+          ],
+          "n_num": 2962,
+          "n_den": 2982
+        },
+        "detected_any_fault": {
+          "pct": 99.9664654594232,
+          "ci95": [
+            99.88807901535979,
+            100.0
+          ],
+          "n_num": 2981,
+          "n_den": 2982
+        },
+        "missed_as_normal": {
+          "pct": 0.0335345405767941,
+          "ci95": [
+            0.0,
+            0.11192098464021916
+          ],
+          "n_num": 1,
+          "n_den": 2982
+        },
+        "wrong_fault_mode": {
+          "pct": 0.6371562709590879,
+          "ci95": [
+            0.12649821814080103,
+            1.4096285732746285
+          ],
+          "n_num": 19,
+          "n_den": 2982
+        }
+      },
+      "DEMAG": {
+        "correct_mode": {
+          "pct": 95.90329079919408,
+          "ci95": [
+            91.8903722455214,
+            97.77446511273277
+          ],
+          "n_num": 2856,
+          "n_den": 2978
+        },
+        "detected_any_fault": {
+          "pct": 95.97044996642042,
+          "ci95": [
+            91.98969970506748,
+            97.82725392564018
+          ],
+          "n_num": 2858,
+          "n_den": 2978
+        },
+        "missed_as_normal": {
+          "pct": 4.029550033579583,
+          "ci95": [
+            2.1727460743598175,
+            8.010300294932518
+          ],
+          "n_num": 120,
+          "n_den": 2978
+        },
+        "wrong_fault_mode": {
+          "pct": 0.0671591672263264,
+          "ci95": [
+            0.0,
+            0.1961770018496049
+          ],
+          "n_num": 2,
+          "n_den": 2978
+        }
+      },
+      "REDUC": {
+        "correct_mode": {
+          "pct": 100.0,
+          "ci95": [
+            100.0,
+            100.0
+          ],
+          "n_num": 2953,
+          "n_den": 2953
+        },
+        "detected_any_fault": {
+          "pct": 100.0,
+          "ci95": [
+            100.0,
+            100.0
+          ],
+          "n_num": 2953,
+          "n_den": 2953
+        },
+        "missed_as_normal": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2953
+        },
+        "wrong_fault_mode": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2953
+        }
+      },
+      "NORMAL": {
+        "false_alarm": {
+          "pct": 4.703544219940378,
+          "ci95": [
+            1.0979136438685146,
+            8.441041744498419
+          ],
+          "n_num": 142,
+          "n_den": 3019
+        },
+        "false_alarm_as_DEMAG": {
+          "pct": 4.670420669095727,
+          "ci95": [
+            1.0604226479460426,
+            8.421560370751017
+          ],
+          "n_num": 141,
+          "n_den": 3019
+        }
+      },
+      "ALL_FAULTS": {
+        "missed_as_normal": {
+          "pct": 1.0202360876897134,
+          "ci95": [
+            0.40910609401316517,
+            1.9065417630468455
+          ],
+          "n_num": 121,
+          "n_den": 11860
+        }
+      },
+      "accuracy": {
+        "pct": 98.03750252033066,
+        "ci95": [
+          96.75421222879021,
+          99.02204844572525
+        ],
+        "n_num": 14587,
+        "n_den": 14879
+      }
+    },
+    "error_composition": {
+      "errors": 292,
+      "error_rate_pct": 1.9624974796693326,
+      "demag_normal_both_directions": 261,
+      "demag_normal_share_pct": 89.38356164383562,
+      "pairs": {
+        "NORMAL->DEMAG": 141,
+        "DEMAG->NORMAL": 120,
+        "ECC20->ECC10": 18,
+        "ECC10->ECC20": 6,
+        "ECC10->REDUC": 2,
+        "DEMAG->ECC10": 1,
+        "ECC20->NORMAL": 1,
+        "NORMAL->ECC20": 1,
+        "DEMAG->REDUC": 1,
+        "ECC20->DEMAG": 1
+      }
+    },
+    "session_majority_vote": {
+      "NORMAL": {
+        "sessions": 13,
+        "vote_correct": 13,
+        "vote_normal": 13
+      },
+      "ECC10": {
+        "sessions": 15,
+        "vote_correct": 15,
+        "vote_normal": 0
+      },
+      "ECC20": {
+        "sessions": 23,
+        "vote_correct": 23,
+        "vote_normal": 0
+      },
+      "DEMAG": {
+        "sessions": 20,
+        "vote_correct": 20,
+        "vote_normal": 0
+      },
+      "REDUC": {
+        "sessions": 27,
+        "vote_correct": 27,
+        "vote_normal": 0
+      }
+    }
+  },
+  "87ch_validation": {
+    "samples": 14792,
+    "sessions": 91,
+    "reliability": {
+      "ECC10": {
+        "correct_mode": {
+          "pct": 99.59197551853111,
+          "ci95": [
+            99.29193514043956,
+            99.8622004231056
+          ],
+          "n_num": 2929,
+          "n_den": 2941
+        },
+        "detected_any_fault": {
+          "pct": 100.0,
+          "ci95": [
+            100.0,
+            100.0
+          ],
+          "n_num": 2941,
+          "n_den": 2941
+        },
+        "missed_as_normal": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2941
+        },
+        "wrong_fault_mode": {
+          "pct": 0.40802448146888814,
+          "ci95": [
+            0.13779957689438793,
+            0.7080648595604435
+          ],
+          "n_num": 12,
+          "n_den": 2941
+        }
+      },
+      "ECC20": {
+        "correct_mode": {
+          "pct": 99.59432048681542,
+          "ci95": [
+            98.71739819589274,
+            100.0
+          ],
+          "n_num": 2946,
+          "n_den": 2958
+        },
+        "detected_any_fault": {
+          "pct": 100.0,
+          "ci95": [
+            100.0,
+            100.0
+          ],
+          "n_num": 2958,
+          "n_den": 2958
+        },
+        "missed_as_normal": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2958
+        },
+        "wrong_fault_mode": {
+          "pct": 0.4056795131845842,
+          "ci95": [
+            0.0,
+            1.282601804107252
+          ],
+          "n_num": 12,
+          "n_den": 2958
+        }
+      },
+      "DEMAG": {
+        "correct_mode": {
+          "pct": 97.03304113283883,
+          "ci95": [
+            95.65210226132814,
+            98.07755464470499
+          ],
+          "n_num": 2878,
+          "n_den": 2966
+        },
+        "detected_any_fault": {
+          "pct": 97.03304113283883,
+          "ci95": [
+            95.65210226132814,
+            98.07755464470499
+          ],
+          "n_num": 2878,
+          "n_den": 2966
+        },
+        "missed_as_normal": {
+          "pct": 2.9669588671611598,
+          "ci95": [
+            1.922445355295008,
+            4.347897738671862
+          ],
+          "n_num": 88,
+          "n_den": 2966
+        },
+        "wrong_fault_mode": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2966
+        }
+      },
+      "REDUC": {
+        "correct_mode": {
+          "pct": 100.0,
+          "ci95": [
+            100.0,
+            100.0
+          ],
+          "n_num": 2949,
+          "n_den": 2949
+        },
+        "detected_any_fault": {
+          "pct": 100.0,
+          "ci95": [
+            100.0,
+            100.0
+          ],
+          "n_num": 2949,
+          "n_den": 2949
+        },
+        "missed_as_normal": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2949
+        },
+        "wrong_fault_mode": {
+          "pct": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_num": 0,
+          "n_den": 2949
+        }
+      },
+      "NORMAL": {
+        "false_alarm": {
+          "pct": 8.495634654130289,
+          "ci95": [
+            1.8592550778339605,
+            12.670278085174738
+          ],
+          "n_num": 253,
+          "n_den": 2978
+        },
+        "false_alarm_as_DEMAG": {
+          "pct": 8.462055070517126,
+          "ci95": [
+            1.8592550778339605,
+            12.6216419738209
+          ],
+          "n_num": 252,
+          "n_den": 2978
+        }
+      },
+      "ALL_FAULTS": {
+        "missed_as_normal": {
+          "pct": 0.74487895716946,
+          "ci95": [
+            0.3084660070901891,
+            1.3030069116579694
+          ],
+          "n_num": 88,
+          "n_den": 11814
+        }
+      },
+      "accuracy": {
+        "pct": 97.53244997295836,
+        "ci95": [
+          95.66995009452138,
+          99.02018439823131
+        ],
+        "n_num": 14427,
+        "n_den": 14792
+      }
+    },
+    "error_composition": {
+      "errors": 365,
+      "error_rate_pct": 2.467550027041644,
+      "demag_normal_both_directions": 340,
+      "demag_normal_share_pct": 93.15068493150685,
+      "pairs": {
+        "NORMAL->DEMAG": 252,
+        "DEMAG->NORMAL": 88,
+        "ECC20->ECC10": 12,
+        "ECC10->ECC20": 9,
+        "ECC10->REDUC": 3,
+        "NORMAL->ECC10": 1
+      }
+    },
+    "session_majority_vote": {
+      "NORMAL": {
+        "sessions": 11,
+        "vote_correct": 11,
+        "vote_normal": 11
+      },
+      "ECC10": {
+        "sessions": 14,
+        "vote_correct": 14,
+        "vote_normal": 0
+      },
+      "ECC20": {
+        "sessions": 20,
+        "vote_correct": 20,
+        "vote_normal": 0
+      },
+      "DEMAG": {
+        "sessions": 20,
+        "vote_correct": 20,
+        "vote_normal": 0
+      },
+      "REDUC": {
+        "sessions": 26,
+        "vote_correct": 26,
+        "vote_normal": 0
+      }
+    }
+  },
+  "AIHub_validation": {
+    "epoch": 3,
+    "epochs_completed": 4,
+    "label_order_assumed": [
+      "NORMAL",
+      "ECC10",
+      "ECC20",
+      "DEMAG",
+      "REDUC"
+    ],
+    "accuracy_pct": 99.7836668469443,
+    "samples": 14792,
+    "NORMAL_false_alarm_pct": 0.0671591672263264,
+    "ALL_FAULTS_missed_pct": 0.22854240731335704,
+    "ECC10": {
+      "correct_mode_pct": 100.0,
+      "missed_as_normal_pct": 0.0,
+      "wrong_fault_mode_pct": 0.0,
+      "n": 2941
+    },
+    "ECC20": {
+      "correct_mode_pct": 99.93238674780257,
+      "missed_as_normal_pct": 0.0,
+      "wrong_fault_mode_pct": 0.0676132521974307,
+      "n": 2958
+    },
+    "DEMAG": {
+      "correct_mode_pct": 99.055967633176,
+      "missed_as_normal_pct": 0.9103169251517195,
+      "wrong_fault_mode_pct": 0.033715441672285906,
+      "n": 2966
+    },
+    "REDUC": {
+      "correct_mode_pct": 100.0,
+      "missed_as_normal_pct": 0.0,
+      "wrong_fault_mode_pct": 0.0,
+      "n": 2949
+    }
+  }
+}
