@@ -1,0 +1,105 @@
+{
+  "device": "PC (not Raspberry Pi)",
+  "cpu_count": 16,
+  "samples": 300,
+  "model": "모델_ord_B/model_registry_fuse_rpm_ext.joblib (87ch, 9,996 kernels)",
+  "time_ms": {
+    "original_serial": {
+      "p50": 882.4,
+      "p95": 946.7
+    },
+    "fast_serial": {
+      "p50": 505.1,
+      "p95": 549.5
+    },
+    "fast_parallel3": {
+      "p50": 200.9,
+      "p95": 260.4
+    }
+  },
+  "speedup_p50": {
+    "fast_serial": 1.75,
+    "fast_parallel3": 4.39
+  },
+  "prediction_agreement": {
+    "same_class": 300,
+    "total": 300,
+    "rate": 1.0,
+    "per_vehicle": {
+      "IONIQ": [
+        100,
+        100
+      ],
+      "KONA": [
+        100,
+        100
+      ],
+      "NIRO": [
+        100,
+        100
+      ]
+    },
+    "max_abs_prob_diff": 0.012121230673571404
+  },
+  "feature_exact_equal_rate_after_storage_cast": {
+    "peak_freq_bin": 1.0,
+    "band_start": 1.0,
+    "band_end": 1.0,
+    "rms": 1.0,
+    "band_ratio_0": 0.997404,
+    "band_ratio_1": 0.997331,
+    "band_ratio_2": 0.997288,
+    "band_ratio_3": 0.997311,
+    "band_ratio_4": 0.997357,
+    "band_ratio_5": 0.99738,
+    "band_ratio_6": 0.997309,
+    "band_ratio_7": 0.997165,
+    "centroid": 0.013026,
+    "entropy": 0.996558,
+    "rolloff": 0.998858,
+    "log_flatness": 0.988683,
+    "ord_band_ratio_0": 0.999233,
+    "ord_band_ratio_1": 0.999181,
+    "ord_band_ratio_2": 0.999167,
+    "ord_band_ratio_3": 0.999203,
+    "ord_band_ratio_4": 0.999189,
+    "ord_band_ratio_5": 0.999178,
+    "ord_band_ratio_6": 0.999217,
+    "ord_band_ratio_7": 0.999237,
+    "ord_centroid": 0.063901,
+    "ord_entropy": 0.998914,
+    "ord_rolloff": 0.999807,
+    "ord_log_flatness": 0.993077
+  },
+  "feature_max_abs_diff_after_storage_cast": {
+    "peak_freq_bin": 0.0,
+    "band_start": 0.0,
+    "band_end": 0.0,
+    "rms": 0.0,
+    "band_ratio_0": 0.000244140625,
+    "band_ratio_1": 0.00048828125,
+    "band_ratio_2": 0.00048828125,
+    "band_ratio_3": 0.00048828125,
+    "band_ratio_4": 0.00048828125,
+    "band_ratio_5": 0.00048828125,
+    "band_ratio_6": 0.000244140625,
+    "band_ratio_7": 0.0001220703125,
+    "centroid": 0.0079345703125,
+    "entropy": 0.00390625,
+    "rolloff": 400.0,
+    "log_flatness": 0.015625,
+    "ord_band_ratio_0": 0.00048828125,
+    "ord_band_ratio_1": 0.000244140625,
+    "ord_band_ratio_2": 0.00048828125,
+    "ord_band_ratio_3": 0.000244140625,
+    "ord_band_ratio_4": 0.000244140625,
+    "ord_band_ratio_5": 0.0001220703125,
+    "ord_band_ratio_6": 0.00048828125,
+    "ord_band_ratio_7": 0.00048828125,
+    "ord_centroid": 0.006591796875,
+    "ord_entropy": 0.00390625,
+    "ord_rolloff": 1.0,
+    "ord_log_flatness": 0.015625
+  },
+  "elapsed_s": 521.2
+}

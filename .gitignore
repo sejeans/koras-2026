@@ -1,0 +1,4 @@
+﻿pi_bundle/
+__pycache__/
+*.nbc
+*.nbi

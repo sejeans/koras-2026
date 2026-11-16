@@ -1,0 +1,34 @@
+{
+  "device": "PC (not Raspberry Pi)",
+  "cpu_count": 16,
+  "reps": 30,
+  "config": {
+    "fs": 25000,
+    "seconds": 10.0,
+    "nfft": 2560,
+    "hop": 125,
+    "width": 2000,
+    "height": 1280,
+    "rpm": 3000.0,
+    "input": "synthetic"
+  },
+  "time_ms_excluding_model": {
+    "stft_only_serial": {
+      "p50": 270.2,
+      "p95": 273.6
+    },
+    "original_serial": {
+      "p50": 949.4,
+      "p95": 984.6
+    },
+    "fast_serial": {
+      "p50": 649.3,
+      "p95": 652.0
+    },
+    "fast_parallel3": {
+      "p50": 281.2,
+      "p95": 292.0
+    }
+  },
+  "note": "STFT energy scaling differs from AI Hub images; timing only."
+}

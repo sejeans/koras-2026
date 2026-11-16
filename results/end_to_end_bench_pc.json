@@ -1,0 +1,167 @@
+{
+  "device": {
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cpu_count": 16,
+    "python": "3.11.8"
+  },
+  "config": {
+    "fs": 25000,
+    "seconds": 10.0,
+    "nfft": 2560,
+    "hop": 125,
+    "width": 2000,
+    "height": 1280,
+    "rpm": 2902.88916015625,
+    "rpm_source": "22_07_28_12_15_20_01_zsplit005_001.csv",
+    "signal": "synthetic",
+    "model": "model_registry_fuse_rpm_ext.joblib",
+    "vehicle": "IONIQ",
+    "kernels": 9996,
+    "reps": 30,
+    "blas_threads": 1
+  },
+  "time_ms": {
+    "png_orig_serial": {
+      "stft": {
+        "p50": 235.2,
+        "p95": 243.2
+      },
+      "png_write": {
+        "p50": 590.3,
+        "p95": 606.5
+      },
+      "png_read_lut": {
+        "p50": 151.7,
+        "p95": 156.1
+      },
+      "features": {
+        "p50": 690.3,
+        "p95": 709.7
+      },
+      "assemble": {
+        "p50": 0.5,
+        "p95": 0.6
+      },
+      "model": {
+        "p50": 42.3,
+        "p95": 45.3
+      },
+      "total": {
+        "p50": 1709.5,
+        "p95": 1758.0
+      }
+    },
+    "png_fast_serial": {
+      "stft": {
+        "p50": 235.0,
+        "p95": 237.7
+      },
+      "png_write": {
+        "p50": 591.1,
+        "p95": 599.8
+      },
+      "png_read_lut": {
+        "p50": 151.7,
+        "p95": 153.3
+      },
+      "features": {
+        "p50": 381.7,
+        "p95": 389.4
+      },
+      "assemble": {
+        "p50": 0.6,
+        "p95": 0.8
+      },
+      "model": {
+        "p50": 42.8,
+        "p95": 44.8
+      },
+      "total": {
+        "p50": 1404.6,
+        "p95": 1425.2
+      }
+    },
+    "png_fast_parallel3": {
+      "preprocess_parallel": {
+        "p50": 549.5,
+        "p95": 573.3
+      },
+      "assemble_model": {
+        "p50": 43.9,
+        "p95": 45.7
+      },
+      "total": {
+        "p50": 592.6,
+        "p95": 616.8
+      }
+    },
+    "vehicle_orig_serial": {
+      "stft": {
+        "p50": 237.5,
+        "p95": 244.4
+      },
+      "scale": {
+        "p50": 40.5,
+        "p95": 42.2
+      },
+      "features": {
+        "p50": 693.5,
+        "p95": 715.2
+      },
+      "assemble": {
+        "p50": 0.4,
+        "p95": 0.5
+      },
+      "model": {
+        "p50": 42.6,
+        "p95": 47.7
+      },
+      "total": {
+        "p50": 1015.3,
+        "p95": 1046.8
+      }
+    },
+    "vehicle_fast_serial": {
+      "stft": {
+        "p50": 236.4,
+        "p95": 240.6
+      },
+      "scale": {
+        "p50": 40.4,
+        "p95": 41.3
+      },
+      "features": {
+        "p50": 385.2,
+        "p95": 389.1
+      },
+      "assemble": {
+        "p50": 0.5,
+        "p95": 0.7
+      },
+      "model": {
+        "p50": 42.7,
+        "p95": 44.0
+      },
+      "total": {
+        "p50": 705.9,
+        "p95": 711.0
+      }
+    },
+    "vehicle_fast_parallel3": {
+      "preprocess_parallel": {
+        "p50": 291.2,
+        "p95": 308.9
+      },
+      "assemble_model": {
+        "p50": 43.0,
+        "p95": 43.9
+      },
+      "total": {
+        "p50": 334.4,
+        "p95": 351.0
+      }
+    }
+  },
+  "note": "Collection time (10 s) excluded. PNG settings and energy scaling are not the dataset's; predictions are meaningless, timing only."
+}
